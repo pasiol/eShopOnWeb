@@ -1,3 +1,4 @@
+# Enabling GitHub actions
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
@@ -5,8 +6,8 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: VisualStudioOnline-09774F06881F452A9830740A24C06510
-  LOCATION: northeurope
+  RESOURCE-GROUP: rg-eshoponweb-az400-github
+  LOCATION: swedencentral
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 158c734d-1d7a-4f48-8273-7c433121d016
   WEBAPP-NAME: eshoponweb-webapp-pasiol-az400
